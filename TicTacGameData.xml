@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<Assets>
+    <PartGameData Id="TicTac_Prefab_Body">
+        <EditorTag Value="Capsules" />
+        <Diameter M="1"/>
+        <CustomMass>
+            <LocationBody X="0", Y="0", Z="0"/>
+            <Mass Kg="1000" />
+            <MassSpecificInertia Ixx="0.44286" Iyy="0.51429" Izz="0.51429" />
+        </CustomMass>
+        <Control/>
+        <Collider Id="Collider1">
+          <Cylinder Id="CylinderCollider1">
+            <LocationAsmb X="0" Y="0" Z="0" />
+            <Collider2Asmb X="0" Y="0" Z="0" />
+            <LengthY M="1" />
+            <Radius M="1" />
+          </Cylinder>
+          <Sphere Id="SphereCollider1">
+            <LocationAsmb X="1" Y="0" Z="0" />
+            <Collider2Asmb X="0" Y="0" Z="0" />
+            <Radius M="1" />
+          </Sphere>
+          <Sphere Id="SphereCollider2">
+            <LocationAsmb X="-1" Y="0" Z="0" />
+            <Collider2Asmb X="0" Y="0" Z="0" />
+            <Radius M="1" />
+          </Sphere>
+        </Collider>
+    </PartGameData>
+</Assets>
