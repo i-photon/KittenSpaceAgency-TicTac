@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Assets>
-    <MeshAtlas Path="Meshes/TicTac.glb"/>
+    <MeshAtlas Path="Meshes/TicTac_MeshAtlas.glb"/>
 
     <PbrMaterial Id="TicTac_Material">
         <Diffuse Path="Textures/TicTac_Diffuse.ktx2" Category="Vessel"/>
